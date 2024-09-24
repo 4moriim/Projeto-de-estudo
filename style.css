@@ -1,0 +1,174 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: beige;
+}
+
+header{
+    background-color: black;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+nav{
+    background-color: rgb(156, 127, 29);
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a{
+    border: none;
+    padding: 10px 15px;
+}
+
+
+.titulo-da-pagina{
+    color: rgb(240, 179, 100);
+    margin: 0%;
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 20rem;
+    background-color: #F1F1F1;
+    height: 100vh;
+}
+
+.timer{
+    display: flex;
+    font-size: 80px;
+    font-weight: bold;
+    color: #333
+}
+
+.time{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    min-width: 90px;
+}
+
+.btn {
+    font-size: 25px;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+}
+
+.button-item{
+    font-size: 16px;
+    padding: 10px 30px;
+}
+
+.relogio {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+    width: 550px;
+    background: transparent;
+    border-radius: 3px;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, .5);
+}
+
+.relogio div {
+    height: 170px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: rgba(5, 5, 5, .7);
+    border: 7px;
+    letter-spacing: 3px;
+}
+
+.relogio span.tempo{
+    font-size: 15px;
+}
+
+#input-text{
+    font-size: 30px;
+}
+
+.modelo-footer{
+    background-color: black;
+}
+
+#menu-horizontal{
+    list-style: none;
+    padding: 0;
+}
+
+
+#menu-horizontal li{
+    display: inline;
+}
+
+#menu-horizontal li a{
+    color: #F1F1F1;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+    
+}
+
+#menu-horizontal li a:hover{
+    color: rgb(60, 110, 151);
+    
+}
+
+#principal{
+    background-color: gray;
+}
+
+#texto-data-hora{
+    text-align: center;
+}
+
+
+#data-BR{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 2rem;
+}
+
+#frase-data-BR{
+    font-size: 45px;
+}
+
+#tempo{
+    text-align: center;
+}
+
+#timer{
+    display: flex;
+    font-size: 80px;
+    font-weight: bold;
+    color: #333
+}
+
+#controle{
+    display: none;
+}
+
