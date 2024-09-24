@@ -38,7 +38,7 @@ function pausarTimer() {
 
 function resetarTimer() {
     clearInterval(interval);
-    interval = null; // Reinicializa o intervalo
+    interval = null; 
     minutes = 0;
     seconds = 0;
     isPaused = false;
